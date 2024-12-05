@@ -27,8 +27,8 @@ header {
     top: 0;
     padding: 1em 0;
     text-align: center;
-    transition: all, 0.5s;
     width: 100%;
+    transition: all, 0.5s;
 }
 
 header h1 {
@@ -183,6 +183,7 @@ ul li {
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .galeria .moeda img {
@@ -195,8 +196,9 @@ ul li {
     margin: 5px 0;
 }
 
-
-
+.galeria .moeda:hover{
+    background-color: #eeeeee;
+}
 
 .galeria .nota {
     width: 250px;
@@ -206,6 +208,11 @@ ul li {
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.galeria .nota:hover {
+    background-color: #eeeeee;
 }
 
 .galeria .nota img {
@@ -217,6 +224,7 @@ ul li {
 .galeria .nota p {
     margin: 5px 0;
 }
+
 
 .destaques {
     display: flex;
@@ -258,7 +266,7 @@ form.form-contato {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    max-width: 600px;
+    max-width: 800px;
     
     padding: 20px;
     background-color: #fff;
@@ -311,3 +319,5 @@ ul li a {
 ul li a:hover {
     text-decoration: underline;
 }
+
+
